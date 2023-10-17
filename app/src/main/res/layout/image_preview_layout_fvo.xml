@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/deleteImage"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/cancel"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="end"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/previewButton"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/hospitalPhotoIV"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/album"/>
+
+        <TextView
+            android:id="@+id/imageNumberTV"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:background="@color/lightGrey"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textSize="10dp"/>
+    </LinearLayout>
+    
+
+</LinearLayout>
